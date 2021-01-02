@@ -37,7 +37,7 @@ const Header = () => {
               src={
                 scrolled
                   ? '/images/logo-blue.png'
-                  : '/images/logo-blue-white-trans.png'
+                  : '/images/logo-gray-white.png'
               }
               alt=""
             />
