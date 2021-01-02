@@ -4,12 +4,19 @@ const HomeHero = () => {
       <div className="container text-white">
         <div className="col-12 col-md-10 col-lg-8 col-lg-5 p-0">
           <h2 className="banner_section__h2 font-weight-bold mb-sm-4">
-            Accounts Payable Automation 80% Faster Bill Pay and AP
+            Next generation of Insurance on Blockchain
           </h2>
 
           <p className="col-10 col-md-8 p-0">
-            Agencies around the world are moving to the digital agencies. So, it
-            is high time to introduce your agency digitaly.
+            Shield DAO [sDAO] is a Decentralized community of Blockchain
+            Products Users, who votes, take decisions, delegate, Index and
+            Curate Blockchain Assets.
+            <br />
+            sDAO is born from $Cover Hack to improve security and prevent hacks
+            <br />
+            Shield is aimed at Improving Blockchain User Experience, securing
+            data using The Graph Protocol and Creating Social Utility Products
+            for ease of living.
           </p>
           <div className="mt-5 mb-4">
             <button
