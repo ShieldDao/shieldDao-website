@@ -4,10 +4,10 @@ const HomeTransactions = () => {
       <div className="container">
         <div className="row">
           <div className="feature__block text-slate col-12 col-lg-5 mt-5 mr-lg-5">
-            <p className="mb-4 heading-big">How Transactions Work</p>
+            <p className="mb-4 heading-big">How ShieldDao Works</p>
             <div className="feature__intro">
               <h3 className="text-slate-dark heading-bigger mb-4">
-                Our wallet is built for the crypto novice
+                ShieldDao is built as a community-driven blockchain token
               </h3>
             </div>
             <p className="mb-sm-4 mb-md-5">

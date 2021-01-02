@@ -6,7 +6,6 @@ const withBundleAnalyzer = require('@next/bundle-analyzer');
 // eslint-disable-next-line import/no-extraneous-dependencies
 const webpack = require('webpack');
 const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin');
-// const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const BrotliPlugin = require('brotli-webpack-plugin');
 
 module.exports = withPlugins(
@@ -17,7 +16,6 @@ module.exports = withPlugins(
   ],
   {
     dir: './src/',
-    distDir: './build',
     env: {},
     webpack: (config, { dev, isServer }) => {
       if (isServer || dev) {
@@ -42,8 +40,6 @@ module.exports = withPlugins(
         return config;
       }
 
-      // config.plugins.push(new CleanWebpackPlugin(['build', 'dist']));
-
       config.plugins.push(
         new webpack.optimize.LimitChunkCountPlugin({
           maxChunks: 1,
@@ -64,7 +60,7 @@ module.exports = withPlugins(
       return config;
     },
     images: {
-      domains: ['localhost'],
+      domains: ['localhost', 'shielddao.app'],
     },
   }
 );

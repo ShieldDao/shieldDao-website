@@ -33,5 +33,8 @@ yarn-error.log*
 # Deploy
 .deploy
 
+# Now
+.now
+
 # Liara Deploy file
 liara.json
