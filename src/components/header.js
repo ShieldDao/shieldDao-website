@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import Image from 'next/image';
 
 const Header = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -35,8 +36,8 @@ const Header = () => {
               className="img-fluid navbar-brand header__logo"
               src={
                 scrolled
-                  ? '/images/logo-bfece249803f3d440ef27a70c60f54f1.png'
-                  : '/images/logo-white-512a641e90600644922a2327e20c5067.png'
+                  ? '/images/logo-blue.png'
+                  : '/images/logo-blue-white-trans.png'
               }
               alt=""
             />
