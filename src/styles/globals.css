@@ -614,3 +614,47 @@ svg.icon {
     margin-top: 1rem;
   }
 }
+
+.roadmap-list {
+  list-style: none;
+  width: max-content;
+  margin: 0 auto;
+}
+
+.roadmap-list .title {
+  color: #fd7e9d;
+  font-weight: 700;
+  display: block;
+  margin-bottom: 24px;
+}
+
+.roadmap-list ul {
+  list-style: none;
+  padding-left: 30px;
+  line-height: 1;
+  border-left: 4px solid #ffccd9;
+}
+
+.roadmap-list > li {
+  margin-bottom: 60px;
+}
+
+.roadmap-list ul li:not(:last-child) {
+  margin-bottom: 22px;
+}
+/*
+.roadmap-list ul li {
+  padding-left: 25px;
+}
+
+.roadmap-list ul li:before {
+  content: '';
+  width: 7px;
+  height: 7;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  background-color: #fd7e9d;
+  top: 0;
+} */

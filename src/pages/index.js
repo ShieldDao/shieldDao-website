@@ -7,6 +7,7 @@ import Footer from '../components/footer';
 import HomeBetaOverview from '../components/home/betaOverview';
 import HomeControl from '../components/home/control';
 import HomeFeaturesSlider from '../components/home/featuresSlider';
+import HomeRoadMap from '../components/home/roadmap';
 import HomeScalable from '../components/home/scalable';
 import HomeTrusted from '../components/home/trusted';
 import Newsletter from '../components/newsletter';
@@ -20,6 +21,7 @@ export default function Home() {
       <Header />
       <HomeHero />
       <HomeTransactions />
+      <HomeRoadMap />
       <HomeControl />
       <HomeTrusted />
       <HomeScalable />
