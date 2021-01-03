@@ -48,6 +48,11 @@ module.exports = withPlugins(
 
       config.optimization.minimizer.push(new OptimizeCSSAssetsPlugin({}));
 
+      config.module.rules.push({
+        test: /\.svg$/,
+        use: ['@svgr/webpack'],
+      });
+
       config.plugins.push(
         new BrotliPlugin({
           asset: '[path].br[query]',
