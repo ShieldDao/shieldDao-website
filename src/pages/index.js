@@ -19,12 +19,10 @@ export default function Home() {
       </Head>
       <Header />
       <HomeHero />
-      <HomeTestimonials />
       <HomeTransactions />
       <HomeControl />
       <HomeTrusted />
       <HomeScalable />
-      <HomeFeaturesSlider />
       <HomeBetaOverview />
       <Newsletter />
       <Footer />

@@ -4,22 +4,29 @@ const HomeTransactions = () => {
       <div className="container">
         <div className="row">
           <div className="feature__block text-slate col-12 col-lg-5 mt-5 mr-lg-5">
-            <p className="mb-4 heading-big">How ShieldDao Works</p>
+            <p className="mb-4 heading-big">
+              Fully decentralized and community-driven
+            </p>
             <div className="feature__intro">
               <h3 className="text-slate-dark heading-bigger mb-4">
-                ShieldDao is built as a community-driven blockchain token
+                Shield DAO community is considered as the main driver and asset
               </h3>
             </div>
             <p className="mb-sm-4 mb-md-5">
-              You can trust us for any kind of services and some of the world
-              class companies have also trusted us.
+              Shield DAO is aimed at improving Blockchain user experience,
+              securing data using The Graph protocol and creating social utility
+              products for ease of living.
+              <br />
+              Shield DAO supply is pre-mined and will not be providing mint
+              functions.
             </p>
-            <button
-              type="button"
+            <a
+              target="_blank"
+              href="https://docs.shielddao.app"
               className="btn text-white btn-larger pink-btn font-weight-bold rounded-pill"
             >
               <span className="btn-center-text">Get Docs</span>
-            </button>
+            </a>
           </div>
           <div className="feature__description col-12 col-lg-6 mt-5 mt-lg-0 ml-lg-5">
             <div className="row align-items-center">

@@ -4,29 +4,29 @@ const HomeHero = () => {
       <div className="container text-white">
         <div className="col-12 col-md-10 col-lg-8 col-lg-5 p-0">
           <h2 className="banner_section__h2 font-weight-bold mb-sm-4">
-            Next generation of Insurance on Blockchain
+            ShieldDao, Protect your investments
           </h2>
 
           <p className="col-10 col-md-8 p-0">
-            Shield DAO [sDAO] is a Decentralized community of Blockchain
-            Products Users, who votes, take decisions, delegate, Index and
-            Curate Blockchain Assets.
+            Shield DAO is a decentralized community of Blockchain products
+            users, who votes, take decisions, delegate, index and curate
+            Blockchain assets.
             <br />
-            sDAO is born from $Cover Hack to improve security and prevent hacks
-            <br />
-            Shield is aimed at Improving Blockchain User Experience, securing
-            data using The Graph Protocol and Creating Social Utility Products
-            for ease of living.
+            Shield DAO community is born after $Cover hack, with the idea to
+            better protect community members thanks to specific governance &
+            delegation.
           </p>
           <div className="mt-5 mb-4">
             <button
               type="button"
+              disabled
               className="btn btn-success font-weight-bolder px-5 py-3"
             >
-              Get Started
+              Launch App <small>(Coming soon)</small>
             </button>
-            <button
-              type="button"
+            <a
+              href="https://shielddao.medium.com/introduction-to-shield-dao-3e5c557655c0"
+              target="_blank"
               className="btn btn-transparent font-weight-bold text-white d-inline-flex pl-0 pl-md-2 ml-md-2"
             >
               Download Whitepaper
@@ -37,12 +37,16 @@ const HomeHero = () => {
                        c0.444,0.444,1.159,0.444,1.587,0l9.952-9.952c0.444-0.429,0.444-1.143,0-1.571L21.205,5.007z"
                 />
               </svg>
-            </button>
+            </a>
           </div>
         </div>
         <div className="social-share mt-5">
-          <button
-            type="button"
+          <a
+            href={`https://twitter.com/intent/tweet?url=${encodeURI(
+              'https://shielddao.app'
+            )}`}
+            target="_blank"
+            rel="nofollow"
             className="btn btn-transparent font-weight-bolder text-white"
           >
             <svg
@@ -62,8 +66,13 @@ const HomeHero = () => {
               />
             </svg>
             Share on Twitter
-          </button>
-          <button
+          </a>
+          <a
+            href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURI(
+              'https://shielddao.app'
+            )}`}
+            target="_blank"
+            rel="nofollow"
             type="button"
             className="btn btn-transparent font-weight-bolder text-white ml-0 ml-md-2"
           >
@@ -77,7 +86,7 @@ const HomeHero = () => {
               <path d="M14.5 0h-13c-0.825 0-1.5 0.675-1.5 1.5v13c0 0.825 0.675 1.5 1.5 1.5h6.5v-7h-2v-2h2v-1c0-1.653 1.347-3 3-3h2v2h-2c-0.55 0-1 0.45-1 1v1h3l-0.5 2h-2.5v7h4.5c0.825 0 1.5-0.675 1.5-1.5v-13c0-0.825-0.675-1.5-1.5-1.5z" />
             </svg>
             Share on Facebook
-          </button>
+          </a>
         </div>
       </div>
       <img

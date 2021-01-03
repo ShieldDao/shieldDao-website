@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const Header = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -27,21 +28,20 @@ const Header = () => {
     >
       <div className="container">
         <div className="logo float-left">
-          <a
-            className={`navbar-brand ${scrolled ? 'nav-link-dark' : ''}`}
-            href="#"
-          >
-            <img
-              id="headerImg"
-              className="img-fluid navbar-brand header__logo"
-              src={
-                scrolled
-                  ? '/images/logo-blue.png'
-                  : '/images/logo-gray-white.png'
-              }
-              alt=""
-            />
-          </a>
+          <Link href="/">
+            <a className={`navbar-brand ${scrolled ? 'nav-link-dark' : ''}`}>
+              <img
+                id="headerImg"
+                className="img-fluid navbar-brand header__logo"
+                src={
+                  scrolled
+                    ? '/images/logo-blue.png'
+                    : '/images/logo-gray-white.png'
+                }
+                alt=""
+              />
+            </a>
+          </Link>
         </div>
 
         <nav className="navbar navbar-expand-lg float-right d-none d-lg-inline-flex main-nav">
@@ -52,52 +52,49 @@ const Header = () => {
           </button>
           <ul className="navbar-nav">
             <li className="nav-item px-2 active">
+              <Link href="/">
+                <a
+                  className={`nav-link active ${
+                    scrolled ? 'nav-link-dark' : ''
+                  }`}
+                >
+                  Home
+                  <span className="sr-only">(current)</span>
+                </a>
+              </Link>
+            </li>
+            <li className="nav-item px-2">
+              <Link href="/">
+                <a className={`nav-link ${scrolled ? 'nav-link-dark' : ''}`}>
+                  Features
+                </a>
+              </Link>
+            </li>
+            <li className="nav-item px-2">
               <a
-                className={`nav-link active ${scrolled ? 'nav-link-dark' : ''}`}
-                href="#"
+                href="https://shielddao.medium.com/introduction-to-shield-dao-3e5c557655c0"
+                target="_blank"
+                className={`nav-link ${scrolled ? 'nav-link-dark' : ''}`}
               >
-                Home
-                <span className="sr-only">(current)</span>
+                Roadmap
               </a>
             </li>
             <li className="nav-item px-2">
               <a
-                className={`nav-link ${scrolled ? 'nav-link-dark' : ''}`}
-                href="#"
-              >
-                Feature
-              </a>
-            </li>
-            <li className="nav-item px-2">
-              <a
-                className={`nav-link ${scrolled ? 'nav-link-dark' : ''}`}
-                href="#"
-              >
-                Offers
-              </a>
-            </li>
-            <li className="nav-item px-2">
-              <a
-                href="#"
+                target="_blank"
+                href="https://docs.shielddao.app"
                 className={`nav-link ${scrolled ? 'nav-link-dark' : ''}`}
               >
-                Payment proofs
-              </a>
-            </li>
-            <li className="nav-item px-2">
-              <a
-                className={`nav-link ${scrolled ? 'nav-link-dark' : ''}`}
-                href="#"
-              >
-                Contact us
+                Documentation
               </a>
             </li>
           </ul>
           <button
             type="button"
+            disabled
             className="btn pink-btn text-white ml-md-4 px-3 font-weight-bold rounded-pill"
           >
-            Get Started
+            Launch App <small>(Coming soon)</small>
           </button>
         </nav>
       </div>
