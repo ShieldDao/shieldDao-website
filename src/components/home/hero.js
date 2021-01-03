@@ -40,7 +40,7 @@ const HomeHero = () => {
             </a>
           </div>
         </div>
-        <div className="social-share mt-5">
+        {/* <div className="social-share mt-5">
           <a
             href={`https://twitter.com/intent/tweet?url=${encodeURI(
               'https://shielddao.app'
@@ -87,7 +87,7 @@ const HomeHero = () => {
             </svg>
             Share on Facebook
           </a>
-        </div>
+        </div> */}
       </div>
       <img
         src="data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSLDkcOrw67DqV8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCAxNjAwIDMzOC45IiB4bWw6c3BhY2U9InByZXNlcnZlIj48c3R5bGUvPjxwYXRoIGQ9Ik0xNTk5LjkgMjQ1LjFjLTUxLjkgMTMuMi0xMDAuNyAzNC0xNDcuOSA1OS0yMSAxMS4xLTQyLjEgMjIuMS02NS40IDI3LjgtMzIuMSA3LjktNjMuOCA2LjYtOTUuMS0zLjgtMTguNS02LjItMzUuMy0xNS44LTUxLjgtMjYuMS0xNS05LjQtMzAuMS0xOC43LTQ1LjMtMjcuNy0yMi4zLTEzLjItNDYuNy0xOS44LTcyLjMtMjIuMS0yMS42LTItNDMuMi0yLjgtNjQuOS0xLTIwLjMgMS43LTQwLjUgNC40LTYwLjcgNy4xLTM5LjIgNS4yLTc4LjMgMTEuMS0xMTcuOCAxMi0yNC43LjYtNDkuMi0xLTczLjEtNy44LTI5LTguMi01MC42LTI2LjUtNjguMS01MC41LTEyLjItMTYuNy0yMy4zLTM0LjMtMzYuMS01MC41LTIwLjQtMjUuNy00NS42LTQ0LjgtNzUuOS01Ny4zLTI4LjItMTEuNi01Ny41LTE3LTg3LjgtMTguNS0zMi43LTEuNi02NS4yIDEuMi05Ny44IDMuMi0yMyAxLjUtNDYgMy02OS4xIDQuNC0yNC43IDEuNi00OS41IDIuMS03NC4yIDIuNi0yNy4zLjYtNTMuMS01LjgtNzguMy0xNS40LTM2LjctMTMuOS03Mi0zMS4zLTEwOC40LTQ1LjlDNzQuNiAyMC40IDM4LjcgOC43IDEuOC4xIDEuMi0uMS42IDAgLjEgMGMwIDE0NCAwIDE5MS0uMSAzMzUgMCAzIC40IDQgMy44IDQgNTMwLjgtLjEgMTA2MS42LS4xIDE1OTIuNCAwIDMuMyAwIDMuOC0uOCAzLjgtMy45LS4xLTYyLjQtLjEtMjcuNy0uMS05MHoiIGZpbGw9IiNmZmYiLz48L3N2Zz4="
