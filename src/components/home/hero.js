@@ -4,7 +4,7 @@ const HomeHero = () => {
       <div className="container text-white">
         <div className="col-12 col-md-10 col-lg-8 col-lg-5 p-0">
           <h2 className="banner_section__h2 font-weight-bold mb-sm-4">
-            ShieldDao, Protect your investments
+            ShieldDAO, Protect your investments
           </h2>
 
           <p className="col-10 col-md-8 p-0">
@@ -25,7 +25,7 @@ const HomeHero = () => {
               Launch App <small>(Coming soon)</small>
             </button>
             <a
-              href="https://shielddao.medium.com/introduction-to-shield-dao-3e5c557655c0"
+              href="https://ShieldDAO.medium.com/introduction-to-shield-dao-3e5c557655c0"
               target="_blank"
               className="btn btn-transparent font-weight-bold text-white d-inline-flex pl-0 pl-md-2 ml-md-2"
             >
@@ -43,7 +43,7 @@ const HomeHero = () => {
         <div className="social-share mt-5">
           <a
             href={`https://twitter.com/intent/tweet?url=${encodeURI(
-              'https://shielddao.app'
+              'https://ShieldDAO.app'
             )}`}
             target="_blank"
             rel="nofollow"

@@ -26,7 +26,7 @@ const Newsletter = () => {
           </div>
           <div className="row text-center mt-lg-4 pb-5">
             <p className="col-12 mb-sm-4 mb-md-4">
-              Become part of our ever growing community. 
+              Become part of our ever growing community.
               <a
                 href="https://t.me/ShieldDAO"
                 target="_blank"

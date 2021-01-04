@@ -60,7 +60,7 @@ module.exports = withPlugins(
       return config;
     },
     images: {
-      domains: ['localhost', 'shielddao.app'],
+      domains: ['localhost', 'ShieldDAO.app'],
     },
   }
 );

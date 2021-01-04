@@ -22,7 +22,7 @@ const HomeTransactions = () => {
             </p>
             <a
               target="_blank"
-              href="https://docs.shielddao.app"
+              href="https://docs.ShieldDAO.app"
               className="btn text-white btn-larger pink-btn font-weight-bold rounded-pill"
             >
               <span className="btn-center-text">Get Docs</span>
@@ -36,7 +36,7 @@ const HomeTransactions = () => {
                   Loss Mitigation
                 </h4>
                 <p>
-                  ShieldDao uses a combination of strategies to mitigate loss:
+                  ShieldDAO uses a combination of strategies to mitigate loss:
                   <br />
                   <small>a.</small> Risk avoidance <br />
                   <small>b.</small> Risk acceptance
@@ -51,7 +51,7 @@ const HomeTransactions = () => {
                 <img src="/images/staking.svg" alt="Ask for Payment" />
                 <h4 className="text-slate-dark heading-big fw-500">Staking</h4>
                 <p>
-                  The ShieldDao community can stake digital assets to receive
+                  The ShieldDAO community can stake digital assets to receive
                   rewards through Liquidity mining program
                 </p>
               </div>
@@ -61,7 +61,7 @@ const HomeTransactions = () => {
                   Governance
                 </h4>
                 <p>
-                  The vision of ShieldDao is to create an operating system for
+                  The vision of ShieldDAO is to create an operating system for
                   trustless transactions by eliminating counterparty risk via
                   disintermediating.
                 </p>
@@ -72,7 +72,7 @@ const HomeTransactions = () => {
                   Product Development
                 </h4>
                 <p>
-                  ShieldDao's blockchain product development is driven by
+                  ShieldDAO's blockchain product development is driven by
                   community use case, proof of concept built and launched with
                   data mapping and governance implementation.
                 </p>
@@ -84,7 +84,7 @@ const HomeTransactions = () => {
                   Data Curation
                 </h4>
                 <p>
-                  ShieldDao's data curation, using The Graph Protocol, helps
+                  ShieldDAO's data curation, using The Graph Protocol, helps
                   manage data to make it more useful for users engaging in data
                   discovery and analysis.
                 </p>
@@ -92,7 +92,7 @@ const HomeTransactions = () => {
 
               <div className="col-6">
                 <a
-                  href="https://docs.shielddao.app/features"
+                  href="https://docs.ShieldDAO.app/features"
                   target="_blank"
                   style={{
                     border: '1px solid #eee',

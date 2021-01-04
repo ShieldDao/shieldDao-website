@@ -1,4 +1,4 @@
-# ShieldDao Front-end website
+# ShieldDAO Front-end website
 
 Front-end of SheildDao website created with react and next.js
 

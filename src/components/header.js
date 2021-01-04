@@ -97,7 +97,7 @@ const Header = () => {
             <li className="nav-item px-2">
               <a
                 target="_blank"
-                href="https://docs.shielddao.app"
+                href="https://docs.ShieldDAO.app"
                 className={`nav-link ${scrolled ? 'nav-link-dark' : ''}`}
               >
                 Documentation

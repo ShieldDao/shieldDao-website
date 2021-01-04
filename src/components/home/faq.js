@@ -54,11 +54,11 @@ const HomeFAQ = () => {
 
           <div className="faq-items-wrap col-12">
             <FAQItem
-              question="What is ShieldDao?"
+              question="What is ShieldDAO?"
               answer={<p>It's a blockchain network for insurance</p>}
             />
             <FAQItem
-              question="What is ShieldDao?"
+              question="What is ShieldDAO?"
               answer={<p>It's a blockchain network for insurance</p>}
             />
           </div>
