@@ -7,7 +7,7 @@ const StickySurvey = () => {
     <div className="topBarPinned">
       Want to participate in ShieldDAO Airdrop?
       <a
-        href="https://docs.google.com/forms/d/e/1FAIpQLSfUQvJ4Un0dp1nFO1Aey4KpwU_POrrYjXfPXtg1NckRNS03hg/formResponse"
+        href="https://docs.google.com/forms/d/e/1FAIpQLScUFWmNasLAsxp4xxDQMTTDI8Sog0oj1a-6Az6EaerUlMbmWQ/viewform"
         target="_blank"
       >
         <strong>Fill out this form</strong>
