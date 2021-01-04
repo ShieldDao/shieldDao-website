@@ -10,6 +10,7 @@ import HomeFeaturesSlider from '../components/home/featuresSlider';
 import HomeRoadMap from '../components/home/roadmap';
 import HomeScalable from '../components/home/scalable';
 import HomeTrusted from '../components/home/trusted';
+import StickySurvey from '../components/home/sticky-survey';
 import Newsletter from '../components/newsletter';
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
       <Head>
         <title>Shield Protocol</title>
       </Head>
+      <StickySurvey />
       <Header />
       <HomeHero />
       <HomeTransactions />

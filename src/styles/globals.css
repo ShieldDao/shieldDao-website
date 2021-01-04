@@ -658,3 +658,48 @@ svg.icon {
   background-color: #fd7e9d;
   top: 0;
 } */
+
+.topBarPinned + .fixed-top {
+  top: 50px;
+}
+
+.topBarPinned .dwclose {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 20px;
+  background: none;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+}
+
+.topBarPinned a,
+.topBarPinned a:hover {
+  color: #fff;
+  text-decoration: underline;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.topBarPinned {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  left: 0;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  z-index: 1000;
+  background-color: rgb(255, 148, 147);
+  background-image: linear-gradient(
+    29deg,
+    rgb(255, 148, 147) 0%,
+    rgb(255, 120, 162) 100%
+  );
+  box-shadow: 0 5px 7px rgba(0, 0, 0, 0.1);
+}
