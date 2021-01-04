@@ -22,9 +22,7 @@ export default function Home() {
       <HomeHero />
       <HomeTransactions />
       <HomeRoadMap />
-      <HomeControl />
       <HomeTrusted />
-      <HomeScalable />
       <HomeBetaOverview />
       <Newsletter />
       <Footer />

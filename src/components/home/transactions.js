@@ -36,11 +36,11 @@ const HomeTransactions = () => {
                   alt="Create Payment Address"
                 />
                 <h4 className="text-slate-dark heading-big fw-500">
-                  Create Payment Address
+                  Loss Mitigation
                 </h4>
                 <p>
-                  Provide your payout wallet address and callback URL to PayBear
-                  API.
+                  ShieldDao uses a combination of strategies to mitigate loss.
+                  These include, among others, four key strategies:
                 </p>
               </div>
               <div className="col-6">

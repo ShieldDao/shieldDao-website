@@ -1,9 +1,9 @@
 const HomeRoadMap = () => {
   return (
-    <section className="roadmap">
+    <section className="roadmap" id="roadmap">
       <div className="container">
         <div className="row mb-4">
-          <h2 class="text-center col-12 text-slate-dark heading-bigger mb-4">
+          <h2 className="text-center col-12 text-slate-dark heading-bigger mb-4">
             Shield DAO Roadmap
           </h2>
 

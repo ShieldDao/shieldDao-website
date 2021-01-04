@@ -64,15 +64,30 @@ const Header = () => {
               </Link>
             </li>
             <li className="nav-item px-2">
-              <Link href="/">
-                <a className={`nav-link ${scrolled ? 'nav-link-dark' : ''}`}>
-                  Features
-                </a>
-              </Link>
+              <a
+                href="#"
+                onClick={(e) => {
+                  e.preventDefault();
+
+                  document
+                    .getElementById('transactions')
+                    .scrollIntoView({ behavior: 'smooth' });
+                }}
+                className={`nav-link ${scrolled ? 'nav-link-dark' : ''}`}
+              >
+                Features
+              </a>
             </li>
             <li className="nav-item px-2">
               <a
-                href="https://shielddao.medium.com/introduction-to-shield-dao-3e5c557655c0"
+                href="#"
+                onClick={(e) => {
+                  e.preventDefault();
+
+                  document
+                    .getElementById('roadmap')
+                    .scrollIntoView({ behavior: 'smooth' });
+                }}
                 target="_blank"
                 className={`nav-link ${scrolled ? 'nav-link-dark' : ''}`}
               >
