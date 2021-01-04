@@ -10,7 +10,7 @@ const StickySurvey = () => {
         href="https://docs.google.com/forms/d/e/1FAIpQLSfUQvJ4Un0dp1nFO1Aey4KpwU_POrrYjXfPXtg1NckRNS03hg/formResponse"
         target="_blank"
       >
-        <strong>Feel out this form</strong>
+        <strong>Fill out this form</strong>
       </a>
       <button
         aria-label="Close"
