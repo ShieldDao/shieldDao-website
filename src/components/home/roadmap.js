@@ -4,7 +4,7 @@ const HomeRoadMap = () => {
       <div className="container">
         <div className="row mb-4">
           <h2 className="text-center col-12 text-slate-dark heading-bigger mb-4">
-            Shield DAO Roadmap
+            ShieldDAO Roadmap
           </h2>
 
           <ul className="roadmap-list">

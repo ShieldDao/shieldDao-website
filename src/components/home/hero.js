@@ -8,11 +8,11 @@ const HomeHero = () => {
           </h2>
 
           <p className="col-10 col-md-8 p-0">
-            Shield DAO is a decentralized community of Blockchain products
-            users, who votes, take decisions, delegate, index and curate
-            Blockchain assets.
+            ShieldDAO is a decentralized community of Blockchain products users,
+            who votes, take decisions, delegate, index and curate Blockchain
+            assets.
             <br />
-            Shield DAO community is born after $Cover hack, with the idea to
+            ShieldDAO community is born after $Cover hack, with the idea to
             better protect community members thanks to specific governance &
             delegation.
           </p>
