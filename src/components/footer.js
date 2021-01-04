@@ -78,8 +78,7 @@ const Footer = () => {
               </a>
             </div>
           </div>
-
-
+        </div>
         <div className="row col-12 mt-5 text-center justify-content-center">
           <span>Copyright 2021 @ShieldDAO Community.</span>
         </div>
