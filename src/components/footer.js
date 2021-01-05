@@ -78,6 +78,24 @@ const Footer = () => {
               </a>
             </div>
           </div>
+
+          <div className="col-12 col-lg-6">
+            <h3>Legal Disclaimer</h3>
+            <p>
+              ShieldDAO disclaims any responsibility or legal liability to users
+              for damages of any kind, including lost profits, lost savings or
+              any other incidental or consequential damages relating to the
+              providing of the Data or the use of it. ShieldDAO expressly
+              disclaims any responsibility to defend or indemnify users against
+              claims of others based on users’ copying, reliance, distribution,
+              or other use of any of the Data. Users assume the risk of
+              providing this Data and shall have no remedy at law or equity
+              against ShieldDAO in case the Data provided is inaccurate,
+              incomplete or otherwise defective in any way. Users providing this
+              Data agree to hold ShieldDAO harmless should any claim arise out
+              of the use of such Data.
+            </p>
+          </div>
         </div>
         <div className="row col-12 mt-5 text-center justify-content-center">
           <span>Copyright 2021 @ShieldDAO Community.</span>
