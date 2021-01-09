@@ -24,7 +24,7 @@ export default function Home() {
       <HomeHero />
       <HomeTransactions />
       <HomeRoadMap />
-      <HomeBetaOverview />
+      {/* <HomeBetaOverview /> */}
       <Newsletter />
       <Footer />
     </>
