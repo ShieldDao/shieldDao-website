@@ -1,3 +1,5 @@
+const { default: Link } = require('next/link');
+
 const Footer = () => {
   return (
     <section className="footerSection">
@@ -9,35 +11,7 @@ const Footer = () => {
 
       <div className="container page-map text-white">
         <div className="row">
-          <div className="language-downloads col-12 col-lg-4">
-            <div className="lang-wrapper mb-5">
-              <p className="heading-big mb-4">Language</p>
-              <div className="dropdown">
-                <a
-                  className="btn btn-secondary text-white dropdown-toggle"
-                  href="#"
-                  role="button"
-                  id="dropdownMenuLink"
-                  data-toggle="dropdown"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                >
-                  <span className="caret">English</span>
-                </a>
-
-                <div
-                  className="dropdown-menu"
-                  aria-labelledby="dropdownMenuLink"
-                >
-                  <a className="dropdown-item" href="#">
-                    English
-                  </a>
-                  <a className="dropdown-item" href="#">
-                    Chinese
-                  </a>
-                </div>
-              </div>
-            </div>
+          <div className="language-downloads col-12">
             <div className="download-wrapper" />
 
             <div className="social-icons">
@@ -78,27 +52,18 @@ const Footer = () => {
               </a>
             </div>
           </div>
-
-          <div className="col-12 col-lg-6">
-            <h3>Legal Disclaimer</h3>
-            <p>
-              ShieldDAO disclaims any responsibility or legal liability to users
-              for damages of any kind, including lost profits, lost savings or
-              any other incidental or consequential damages relating to the
-              providing of the Data or the use of it. ShieldDAO expressly
-              disclaims any responsibility to defend or indemnify users against
-              claims of others based on users’ copying, reliance, distribution,
-              or other use of any of the Data. Users assume the risk of
-              providing this Data and shall have no remedy at law or equity
-              against ShieldDAO in case the Data provided is inaccurate,
-              incomplete or otherwise defective in any way. Users providing this
-              Data agree to hold ShieldDAO harmless should any claim arise out
-              of the use of such Data.
-            </p>
-          </div>
         </div>
         <div className="row col-12 mt-5 text-center justify-content-center">
-          <span>Copyright 2021 @ShieldDAO Community.</span>
+          <p>
+            Copyright 2021
+            <Link href="/">
+              <a>@ShieldDAO</a>
+            </Link>
+            Community.
+          </p>
+          <Link href="/legal-disclaimer">
+            <a className="legal">Legal Disclaimer</a>
+          </Link>
         </div>
       </div>
 
@@ -107,7 +72,7 @@ const Footer = () => {
           .social-icons {
             display: grid;
             grid-auto-flow: column;
-            justify-content: flex-start;
+            justify-content: center;
             grid-gap: 0 15px;
           }
 
@@ -115,6 +80,26 @@ const Footer = () => {
             width: 2.2em;
             height: 2.2em;
             fill: #fff;
+          }
+
+          p a {
+            color: #fff;
+            display: inline-block;
+            margin: 0 2px;
+          }
+
+          a.legal {
+            text-decoration: underline;
+            color: #fff;
+            font-weight: 500;
+            display: inline-block;
+            margin-left: 3px;
+            transition: all 200ms ease-in-out;
+          }
+
+          a.legal:hover {
+            color: #180b75;
+            text-decoration: none;
           }
         `}
       </style>
