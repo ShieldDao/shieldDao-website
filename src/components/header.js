@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 
-const Header = () => {
+const Header = ({ darkHeader }) => {
   const [scrolled, setScrolled] = useState(false);
 
   const scrollHandler = () => {
@@ -24,18 +24,24 @@ const Header = () => {
   return (
     <header
       id="header"
-      className={`header fixed-top ${scrolled ? 'header-scrolled' : ''}`}
+      className={`header fixed-top ${
+        scrolled || darkHeader ? 'header-scrolled' : ''
+      }`}
     >
       <div className="container">
         <div className="logo float-left">
           <Link href="/">
-            <a className={`navbar-brand ${scrolled ? 'nav-link-dark' : ''}`}>
+            <a
+              className={`navbar-brand ${
+                scrolled || darkHeader ? 'nav-link-dark' : ''
+              }`}
+            >
               <img
                 id="headerImg"
                 className="img-fluid navbar-brand header__logo"
                 src={
-                  scrolled
-                    ? '/images/logo-blue.png'
+                  scrolled || darkHeader
+                    ? '/images/logo-black.png'
                     : '/images/logo-gray-white.png'
                 }
                 alt=""
@@ -55,7 +61,7 @@ const Header = () => {
               <Link href="/">
                 <a
                   className={`nav-link active ${
-                    scrolled ? 'nav-link-dark' : ''
+                    scrolled || darkHeader ? 'nav-link-dark' : ''
                   }`}
                 >
                   Home
@@ -73,7 +79,9 @@ const Header = () => {
                     .getElementById('transactions')
                     .scrollIntoView({ behavior: 'smooth' });
                 }}
-                className={`nav-link ${scrolled ? 'nav-link-dark' : ''}`}
+                className={`nav-link ${
+                  scrolled || darkHeader ? 'nav-link-dark' : ''
+                }`}
               >
                 Features
               </a>
@@ -89,7 +97,9 @@ const Header = () => {
                     .scrollIntoView({ behavior: 'smooth' });
                 }}
                 target="_blank"
-                className={`nav-link ${scrolled ? 'nav-link-dark' : ''}`}
+                className={`nav-link ${
+                  scrolled || darkHeader ? 'nav-link-dark' : ''
+                }`}
               >
                 Roadmap
               </a>
@@ -98,7 +108,9 @@ const Header = () => {
               <a
                 target="_blank"
                 href="https://docs.ShieldDAO.app"
-                className={`nav-link ${scrolled ? 'nav-link-dark' : ''}`}
+                className={`nav-link ${
+                  scrolled || darkHeader ? 'nav-link-dark' : ''
+                }`}
               >
                 Documentation
               </a>
