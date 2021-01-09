@@ -159,6 +159,10 @@ const Header = ({ darkHeader }) => {
             height: 10px;
           }
 
+          .header-scrolled .navbar > ul > li > a svg {
+            fill: #000;
+          }
+
           .navbar > ul > li > ul {
             position: absolute;
             background: #fff;
