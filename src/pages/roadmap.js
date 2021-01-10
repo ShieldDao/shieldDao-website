@@ -18,7 +18,7 @@ const Roadmap = () => {
 
         <p>ShieldDAO Roadmap:</p>
 
-        <img className="present" src="/svg/RMAP.svg" />
+        <img className="present" alt="roadmap" src="/svg/RMAP.svg" />
       </PageContent>
       <Newsletter />
       <Footer />

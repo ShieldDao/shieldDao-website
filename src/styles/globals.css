@@ -14,6 +14,11 @@ img::selection {
   color: white;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 .container {
   box-sizing: content-box;
 }
