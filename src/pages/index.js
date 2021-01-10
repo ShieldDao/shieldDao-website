@@ -19,7 +19,7 @@ export default function Home() {
       <HomeHero />
       <HomeTransactions />
       <HomeInfoGraphics />
-      <HomeTeam />
+      {/* <HomeTeam /> */}
       <Newsletter />
       <Footer />
     </>

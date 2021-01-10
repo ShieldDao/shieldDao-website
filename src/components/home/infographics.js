@@ -9,10 +9,6 @@ const HomeInfoGraphics = () => {
 
           <div className="row align-items-center">
             <div className="col-12 col-md-6">
-              <h2 className="text-center col-12 text-slate-dark mb-4">
-                Roadmap
-              </h2>
-
               <p className="text-center">
                 <img alt="roadmap" className="present" src="/svg/rmap-bl.svg" />
               </p>
