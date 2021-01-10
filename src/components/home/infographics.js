@@ -14,7 +14,7 @@ const HomeInfoGraphics = () => {
               </h2>
 
               <p className="text-center">
-                <img alt="roadmap" className="present" src="/svg/RMAP.svg" />
+                <img alt="roadmap" className="present" src="/svg/rmap-bl.svg" />
               </p>
             </div>
 
@@ -27,7 +27,7 @@ const HomeInfoGraphics = () => {
                 <img
                   className="present"
                   alt="tokenomics"
-                  src="/svg/SHDTokenomics.svg"
+                  src="/svg/shdtoken-bl.svg"
                 />
               </p>
             </div>
