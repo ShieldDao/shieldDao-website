@@ -14,7 +14,6 @@ export default function Home() {
       <Head>
         <title>Shield Protocol</title>
       </Head>
-      <StickySurvey />
       <Header />
       <HomeHero />
       <HomeTransactions />
