@@ -7,6 +7,7 @@ import StickySurvey from '../components/home/sticky-survey';
 import Newsletter from '../components/newsletter';
 import HomeInfoGraphics from '../components/home/infographics';
 import HomeTeam from '../components/home/team';
+import HomePartners from '../components/home/partners';
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <HomeHero />
       <HomeTransactions />
       <HomeInfoGraphics />
+      <HomePartners />
       {/* <HomeTeam /> */}
       <Newsletter />
       <Footer />
